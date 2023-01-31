@@ -10,7 +10,7 @@
       href="./images/png-transparent-gold.png"
       type="image/x-icon"
     />
-    <title>Static - Boiler Plate</title>
+    <title>Digital-Clock</title>
     <!-- fontAwesome CDN -->
     <link
       rel="stylesheet"
@@ -26,25 +26,40 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
+    <!-- <div class="header">
+      <h1>Digital Clock</h1>
+    </div> -->
     <!-- time container start -->
     <div class="time" id="time">
       <!-- circle -->
       <div class="circle" id="circle">
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70"></circle>
+        </svg>
         <!-- hours time -->
-        <div class="hour">00</div>
+        <div class="hours" id="hours">00</div>
       </div>
       <div class="circle" id="circle">
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70"></circle>
+        </svg>
         <!-- minutes time -->
-        <div class="minutes">00</div>
+        <div class="minutes" id="minutes">00</div>
       </div>
       <div class="circle" id="circle">
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70"></circle>
+        </svg>
         <!-- seconds time -->
-        <div class="seconds">00</div>
+        <div class="seconds" id="seconds">00</div>
       </div>
 
       <!-- AM PM -->
       <div class="ap">
-        <div class="ampm">AM</div>
+        <div class="ampm" id="ampm"><span>AM</span></div>
       </div>
     </div>
     <!-- time container end -->
